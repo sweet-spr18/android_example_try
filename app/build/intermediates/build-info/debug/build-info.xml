@@ -1,105 +1,103 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="x86"
-    api-level="27"
-    build-mode="FULL"
-    density="420dpi"
+    api-level="28"
+    build-mode="COLD"
+    density="560dpi"
     format="10"
-    plugin-version="3.0.1"
-    timestamp="1523910392480"
-    token="-1736920273511063870"
-    verifier="FULL_BUILD_REQUESTED" >
+    ir-eligibility="CLASS_ADDED"
+    plugin-version="3.1.1"
+    timestamp="1524631952540"
+    token="-3336218953263198466"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="22807" />
+        duration="22670" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="3208" />
+        duration="196" />
     <task
         name="verifier"
-        duration="3169" />
+        duration="8" />
 
     <artifact
-        location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\outputs\apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1523910392480"
-        verifier="FULL_BUILD_REQUESTED" >
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1524617160373"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\Thoa Ta\Downloads\android_Example\app\build\outputs\apk\debug\app-debug.apk"
+            location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="METHOD_DELETED"
+        timestamp="1524617942556"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1524626653891"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1524631952540"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/amota511/StudioProjects/Feasta_Android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

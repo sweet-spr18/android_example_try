@@ -35,6 +35,8 @@ public class Movie implements Parcelable
         voteAverage = in.readDouble();
     }
 
+    //"/Users/amota511/StudioProjects/Feasta_Android/app/src/main/res/drawable-xhdpi/dac.jpg";
+
     public static final Creator<Movie> CREATOR = new Creator<Movie>()
     {
         @Override

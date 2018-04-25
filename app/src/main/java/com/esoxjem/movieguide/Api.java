@@ -14,7 +14,7 @@ public class Api {
     }
 
     public static String getPosterPath(String posterPath) {
-        return BASE_POSTER_PATH + posterPath;
+        return "/Users/amota511/StudioProjects/Feasta_Android/app/src/main/res/drawable-xxhdpi/dac.png";
     }
 
     public static String getBackdropPath(String backdropPath) {

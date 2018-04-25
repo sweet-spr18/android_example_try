@@ -72,29 +72,29 @@ public class MoviesListingAdapter extends RecyclerView.Adapter<MoviesListingAdap
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.itemView.setOnClickListener(holder);
         holder.movie = movies.get(position);
-        holder.name.setText(holder.movie.getTitle());
+        holder.name.setText("DAC");
+        holder.poster.setImageResource(R.drawable.dac);
 
-        RequestOptions options = new RequestOptions()
-                .centerCrop()
-                .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
-                .priority(Priority.HIGH);
-
-        Glide.with(context)
-                .asBitmap()
-                .load(Api.getPosterPath(holder.movie.getPosterPath()))
-                .apply(options)
-                .into(new BitmapImageViewTarget(holder.poster) {
-                    @Override
-                    public void onResourceReady(Bitmap bitmap, @Nullable Transition<? super Bitmap> transition) {
-                        super.onResourceReady(bitmap, transition);
-                        Palette.from(bitmap).generate(palette -> setBackgroundColor(palette, holder));
-                    }
-                });
+//        RequestOptions options = new RequestOptions()
+//                .centerCrop()
+//                .diskCacheStrategy(DiskCacheStrategy.AUTOMATIC)
+//                .priority(Priority.HIGH);
+//
+//        Glide.with(context)
+//                .asBitmap()
+//                .load(Api.getPosterPath(holder.movie.getPosterPath()))
+//                .apply(options)
+//                .into(new BitmapImageViewTarget(holder.poster) {
+//                    @Override
+//                    public void onResourceReady(Bitmap bitmap, @Nullable Transition<? super Bitmap> transition) {
+//                        super.onResourceReady(bitmap, transition);
+//                        Palette.from(bitmap).generate(palette -> setBackgroundColor(palette, holder));
+//                    }
+//                });
     }
 
     private void setBackgroundColor(Palette palette, ViewHolder holder) {
-        holder.titleBackground.setBackgroundColor(palette.getVibrantColor(context
-                .getResources().getColor(R.color.black_translucent_60)));
+        holder.titleBackground.setBackgroundColor(0x0);
     }
 
     @Override
