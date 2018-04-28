@@ -2,6 +2,7 @@ package com.esoxjem.movieguide.listing;
 
 import android.content.Context;
 import android.graphics.Bitmap;
+import android.graphics.drawable.Drawable;
 import android.support.annotation.Nullable;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.RecyclerView;
@@ -34,6 +35,12 @@ public class MoviesListingAdapter extends RecyclerView.Adapter<MoviesListingAdap
     private Context context;
     private MoviesListingView view;
 
+
+    //Feasta
+    private int[] images = new int[3];
+    private String[] titles = new String[3];
+
+
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         @BindView(R.id.movie_poster)
         ImageView poster;
@@ -42,16 +49,27 @@ public class MoviesListingAdapter extends RecyclerView.Adapter<MoviesListingAdap
         @BindView(R.id.movie_name)
         TextView name;
 
+
+
         public Movie movie;
 
         public ViewHolder(View root) {
             super(root);
             ButterKnife.bind(this, root);
+
+            images[0] = R.drawable.dac;
+            images[1] = R.drawable.lib;
+            images[2] = R.drawable.sjh;
+
+
+            titles[0] = "DAC";
+            titles[1] = "LIB";
+            titles[2] = "SJH";
         }
 
         @Override
         public void onClick(View view) {
-            MoviesListingAdapter.this.view.onMovieClicked(movie);
+//            MoviesListingAdapter.this.view.onMovieClicked(movie);
         }
     }
 
@@ -72,8 +90,8 @@ public class MoviesListingAdapter extends RecyclerView.Adapter<MoviesListingAdap
     public void onBindViewHolder(final ViewHolder holder, int position) {
         holder.itemView.setOnClickListener(holder);
         holder.movie = movies.get(position);
-        holder.name.setText("DAC");
-        holder.poster.setImageResource(R.drawable.dac);
+        holder.name.setText(titles[position]);
+        holder.poster.setImageResource(images[position]);
 
 //        RequestOptions options = new RequestOptions()
 //                .centerCrop()
@@ -99,6 +117,6 @@ public class MoviesListingAdapter extends RecyclerView.Adapter<MoviesListingAdap
 
     @Override
     public int getItemCount() {
-        return movies.size();
+        return images.length;
     }
 }
